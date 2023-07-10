@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#myCanvas {
+    cursor: url("../img/mouse.png") 10 1, auto;
+}
+
+#popImage {
+    position: absolute;
+    top: -100px;
+    left: -100px;
+    visibility: hidden;
+}
