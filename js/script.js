@@ -310,7 +310,7 @@ canvas.addEventListener("click", function (event) {
                     console.log('Game Over');
                     Swal.fire(
                         'Game Over',
-                        'Your Score is ' + score + '<br> Thank You Anil Sir',
+                        'Your Score is ' + score,
                         'success'
                     );
                     return; // Exit the update function
